@@ -1,0 +1,26 @@
+{
+  "modulePathMap": {
+    "SampleCode_entry": "C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master",
+  "nodeModulesPath": "C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "SampleCode_entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "updateVersionInfo": {},
+  "customizedHar": false,
+  "anBuildOutPut": "C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}

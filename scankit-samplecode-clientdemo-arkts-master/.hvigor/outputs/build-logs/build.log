@@ -1,0 +1,895 @@
+[2026-04-21T16:46:14.742] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-21T16:46:15.368] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-21T16:46:18.485] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-04-21T16:46:18.488] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:46:18.712] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-04-21T16:46:18.718] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-04-21T16:46:18.737] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-04-21T16:46:18.709] [DEBUG] debug-file - App plugin register hook start...
+[2026-04-21T16:46:18.790] [DEBUG] debug-file - Project task initialization takes 9 ms 
+[2026-04-21T16:46:18.803] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-04-21T16:46:18.823] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=SampleCode_entry, buildMode=debug
+[2026-04-21T16:46:18.833] [DEBUG] debug-file - project has submodules:SampleCode_entry
+[2026-04-21T16:46:18.836] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-04-21T16:46:14.744] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2026-04-21T16:46:15.368] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-21T16:46:18.862] [DEBUG] debug-file - SampleCode_entry : clean cost memory 0.11293792724609375
+[2026-04-21T16:46:18.849] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:46:18.899] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-21T16:46:18.486] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-04-21T16:46:18.488] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-21T16:46:18.712] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-04-21T16:46:18.779] [DEBUG] debug-file - Sdk init in 56 ms 
+[2026-04-21T16:46:18.722] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-04-21T16:46:18.710] [DEBUG] debug-file - App plugin register hook end...
+[2026-04-21T16:46:18.790] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:46:18.824] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:46:18.841] [DEBUG] debug-file - load to the disk finished
+[2026-04-21T16:46:14.747] [DEBUG] debug-file - env: daemon=false
+[2026-04-21T16:46:15.369] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-21T16:46:18.863] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 509 ms 
+[2026-04-21T16:46:18.854] [DEBUG] debug-file - Module SampleCode_entry Collected Dependency: 
+[2026-04-21T16:46:18.902] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-21T16:46:18.488] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-21T16:46:18.713] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-04-21T16:46:18.725] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-04-21T16:46:18.710] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:46:18.790] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+[2026-04-21T16:46:18.843] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:46:18.824] [DEBUG] debug-file - Module 'SampleCode_entry' target 'default' build option initialized
+[2026-04-21T16:46:14.747] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-04-21T16:46:15.371] [DEBUG] debug-file - hvigorfile, resolving C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+[2026-04-21T16:46:18.864] [INFO] debug-file - Finished :SampleCode_entry:clean... after 3 ms 
+[2026-04-21T16:46:18.854] [DEBUG] debug-file - Module SampleCode_entry's total dependency: 0
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-21T16:46:18.488] [DEBUG] debug-file - App plugin creating...
+[2026-04-21T16:46:18.713] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-04-21T16:46:18.731] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-04-21T16:46:18.790] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+[2026-04-21T16:46:18.847] [DEBUG] debug-file - Module scankit-samplecode-clientdemo-arkts-master Collected Dependency: 
+[2026-04-21T16:46:18.824] [DEBUG] debug-file - End initialize module-target build option map, moduleName=SampleCode_entry
+[2026-04-21T16:46:18.864] [DEBUG] debug-file - Executing task ::clean
+[2026-04-21T16:46:18.857] [DEBUG] debug-file - Configuration phase cost:3 s 488 ms 
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Clear worker 0.
+[2026-04-21T16:46:18.791] [DEBUG] debug-file - hvigorfile, resolving C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\hvigorfile.ts
+[2026-04-21T16:46:18.824] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=SampleCode_entry, buildMode=release
+[2026-04-21T16:46:18.864] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-04-21T16:46:18.859] [DEBUG] debug-file - Configuration task cost before running: 3 s 506 ms 
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-21T16:46:18.847] [DEBUG] debug-file - Module scankit-samplecode-clientdemo-arkts-master's total dependency: 0
+[2026-04-21T16:46:18.800] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-04-21T16:46:18.824] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:46:18.865] [DEBUG] debug-file - scankit-samplecode-clientdemo-arkts-master : clean cost memory 0.020416259765625
+[2026-04-21T16:46:18.860] [DEBUG] debug-file - Executing task :SampleCode_entry:clean
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-21T16:46:18.800] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-04-21T16:46:18.825] [DEBUG] debug-file - Module 'SampleCode_entry' target 'default' build option initialized
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-21T16:46:18.865] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 511 ms 
+[2026-04-21T16:46:18.825] [DEBUG] debug-file - End initialize module-target build option map, moduleName=SampleCode_entry
+[2026-04-21T16:46:18.860] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-04-21T16:46:18.800] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Clear worker 1.
+[2026-04-21T16:46:18.825] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=SampleCode_entry, buildMode=debug
+[2026-04-21T16:46:18.865] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2026-04-21T16:46:18.800] [DEBUG] debug-file - Hap plugin creating...
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-21T16:46:18.825] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:46:18.865] [DEBUG] debug-file - Executing task :SampleCode_entry:init
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-21T16:46:18.825] [DEBUG] debug-file - Module 'SampleCode_entry' target 'default' build option initialized
+[2026-04-21T16:46:18.865] [DEBUG] debug-file - SampleCode_entry : init cost memory 0.01264190673828125
+[2026-04-21T16:46:18.904] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-21T16:46:18.825] [DEBUG] debug-file - End initialize module-target build option map, moduleName=SampleCode_entry
+[2026-04-21T16:46:18.865] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 512 ms 
+[2026-04-21T16:46:18.905] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-21T16:46:18.826] [DEBUG] debug-file - Obtain build option for module 'SampleCode_entry' target 'default'in this build.
+[2026-04-21T16:46:18.866] [INFO] debug-file - Finished :SampleCode_entry:init... after 1 ms 
+[2026-04-21T16:46:18.912] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-21T16:46:18.831] [DEBUG] debug-file - Module SampleCode_entry task initialization takes 5 ms 
+[2026-04-21T16:46:18.866] [DEBUG] debug-file - Executing task ::init
+[2026-04-21T16:46:18.913] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-21T16:46:18.831] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-04-21T16:46:18.866] [DEBUG] debug-file - scankit-samplecode-clientdemo-arkts-master : init cost memory 0.01141357421875
+[2026-04-21T16:46:18.913] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-21T16:46:18.831] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-04-21T16:46:18.866] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 512 ms 
+[2026-04-21T16:46:18.831] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:46:18.866] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-04-21T16:46:18.831] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:46:18.882] [DEBUG] debug-file - Obtain build option for module 'SampleCode_entry' target 'default'in this build.
+[2026-04-21T16:46:18.832] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\hvigorfile.ts
+[2026-04-21T16:46:18.895] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-21T16:46:18.832] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\hvigorfile.ts
+[2026-04-21T16:46:18.896] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-21T16:48:29.469] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-21T16:48:29.562] [DEBUG] debug-file - env: daemon=true
+[2026-04-21T16:48:29.471] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2026-04-21T16:48:30.645] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-21T16:48:30.667] [DEBUG] debug-file - java daemon started at port 45050 pid 24004
+[2026-04-21T16:48:30.696] [DEBUG] debug-file - session manager: set active socket. socketId=N0RK5o6r29QEKUNxAAAB
+[2026-04-21T16:48:31.744] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:48:31.750] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-21T16:48:31.751] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-21T16:48:31.752] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-21T16:48:31.754] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-21T16:48:31.756] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-21T16:48:31.766] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-21T16:48:31.769] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2026-04-21T16:48:31.773] [DEBUG] debug-file - hvigorfile, resolving C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+[2026-04-21T16:48:34.103] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-21T16:48:34.103] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-21T16:48:34.104] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:48:34.104] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-21T16:48:34.105] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-21T16:48:34.105] [DEBUG] debug-file - App plugin creating...
+[2026-04-21T16:48:34.292] [DEBUG] debug-file - App plugin register hook start...
+[2026-04-21T16:48:34.292] [DEBUG] debug-file - App plugin register hook end...
+[2026-04-21T16:48:34.292] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:48:34.294] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-04-21T16:48:34.294] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-04-21T16:48:34.294] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-04-21T16:48:34.295] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-04-21T16:48:34.297] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-04-21T16:48:34.299] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-04-21T16:48:34.302] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-04-21T16:48:34.305] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-04-21T16:48:34.307] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-04-21T16:48:34.342] [DEBUG] debug-file - Sdk init in 42 ms 
+[2026-04-21T16:48:34.349] [DEBUG] debug-file - Project task initialization takes 6 ms 
+[2026-04-21T16:48:34.349] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:48:34.350] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+[2026-04-21T16:48:34.350] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+[2026-04-21T16:48:34.350] [DEBUG] debug-file - hvigorfile, resolving C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\hvigorfile.ts
+[2026-04-21T16:48:34.358] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-21T16:48:34.359] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-21T16:48:34.359] [DEBUG] debug-file - Starting plugin build process
+[2026-04-21T16:48:34.359] [DEBUG] debug-file - Hap plugin creating...
+[2026-04-21T16:48:34.361] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigorfile.ts
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\deveco\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-04-21T16:48:34.377] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=SampleCode_entry, buildMode=debug
+[2026-04-21T16:48:34.378] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:48:34.378] [DEBUG] debug-file - Module 'SampleCode_entry' target 'default' build option initialized
+[2026-04-21T16:48:34.378] [DEBUG] debug-file - End initialize module-target build option map, moduleName=SampleCode_entry
+[2026-04-21T16:48:34.378] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=SampleCode_entry, buildMode=release
+[2026-04-21T16:48:34.378] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:48:34.379] [DEBUG] debug-file - Module 'SampleCode_entry' target 'default' build option initialized
+[2026-04-21T16:48:34.379] [DEBUG] debug-file - End initialize module-target build option map, moduleName=SampleCode_entry
+[2026-04-21T16:48:34.379] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=SampleCode_entry, buildMode=debug
+[2026-04-21T16:48:34.379] [DEBUG] debug-file - Target 'default' config initialized
+[2026-04-21T16:48:34.379] [DEBUG] debug-file - Module 'SampleCode_entry' target 'default' build option initialized
+[2026-04-21T16:48:34.379] [DEBUG] debug-file - End initialize module-target build option map, moduleName=SampleCode_entry
+[2026-04-21T16:48:34.380] [DEBUG] debug-file - Obtain build option for module 'SampleCode_entry' target 'default'in this build.
+[2026-04-21T16:48:34.385] [DEBUG] debug-file - Module SampleCode_entry task initialization takes 5 ms 
+[2026-04-21T16:48:34.385] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-04-21T16:48:34.385] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-04-21T16:48:34.385] [DEBUG] debug-file - Plugin build process completed
+[2026-04-21T16:48:34.385] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-04-21T16:48:34.385] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\hvigorfile.ts
+[2026-04-21T16:48:34.385] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\hvigorfile.ts
+[2026-04-21T16:48:34.409] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 24 ms 
+[2026-04-21T16:48:34.410] [DEBUG] debug-file - project has submodules:SampleCode_entry
+[2026-04-21T16:48:34.412] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-04-21T16:48:34.446] [DEBUG] debug-file - load to the disk finished
+[2026-04-21T16:48:34.448] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:48:34.451] [DEBUG] debug-file - Module scankit-samplecode-clientdemo-arkts-master Collected Dependency: 
+[2026-04-21T16:48:34.451] [DEBUG] debug-file - Module scankit-samplecode-clientdemo-arkts-master's total dependency: 0
+[2026-04-21T16:48:34.453] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-04-21T16:48:34.459] [DEBUG] debug-file - Module SampleCode_entry Collected Dependency: 
+[2026-04-21T16:48:34.459] [DEBUG] debug-file - Module SampleCode_entry's total dependency: 0
+[2026-04-21T16:48:34.463] [DEBUG] debug-file - Configuration phase cost:2 s 694 ms 
+[2026-04-21T16:48:34.466] [DEBUG] debug-file - Configuration task cost before running: 2 s 709 ms 
+[2026-04-21T16:48:34.475] [DEBUG] debug-file - Executing task :SampleCode_entry:default@PreBuild
+[2026-04-21T16:48:34.477] [DEBUG] debug-file - Task 'SampleCode_entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:34.635] [DEBUG] debug-file - current product is not Atomic service.
+[2026-04-21T16:48:34.635] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'D:\\deveco\\DevEco Studio\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2026-04-21T16:48:34.635] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'D:\\deveco\\DevEco Studio\\tools\\node' } ]
+[2026-04-21T16:48:34.636] [DEBUG] debug-file - SampleCode_entry : default@PreBuild cost memory 8.357170104980469
+[2026-04-21T16:48:34.636] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 879 ms 
+[2026-04-21T16:48:34.640] [INFO] debug-file - Finished :SampleCode_entry:default@PreBuild... after 162 ms 
+[2026-04-21T16:48:34.641] [DEBUG] debug-file - Executing task :SampleCode_entry:default@CreateModuleInfo
+[2026-04-21T16:48:34.642] [DEBUG] debug-file - Task 'SampleCode_entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:34.642] [DEBUG] debug-file - SampleCode_entry : default@CreateModuleInfo cost memory 0.04335784912109375
+[2026-04-21T16:48:34.643] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 886 ms 
+[2026-04-21T16:48:34.643] [INFO] debug-file - Finished :SampleCode_entry:default@CreateModuleInfo... after 2 ms 
+[2026-04-21T16:48:34.645] [DEBUG] debug-file - Executing task :SampleCode_entry:default@GenerateMetadata
+[2026-04-21T16:48:34.646] [DEBUG] debug-file - Task 'SampleCode_entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:34.650] [DEBUG] debug-file - SampleCode_entry : default@GenerateMetadata cost memory 0.06728363037109375
+[2026-04-21T16:48:34.650] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 893 ms 
+[2026-04-21T16:48:34.650] [INFO] debug-file - Finished :SampleCode_entry:default@GenerateMetadata... after 5 ms 
+[2026-04-21T16:48:34.651] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ConfigureCmake
+[2026-04-21T16:48:34.651] [DEBUG] debug-file - SampleCode_entry : default@ConfigureCmake cost memory 0.01451873779296875
+[2026-04-21T16:48:34.652] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 895 ms 
+[2026-04-21T16:48:34.652] [INFO] debug-file - Finished :SampleCode_entry:default@ConfigureCmake... after 1 ms 
+[2026-04-21T16:48:34.653] [DEBUG] debug-file - Executing task :SampleCode_entry:default@MergeProfile
+[2026-04-21T16:48:34.654] [DEBUG] debug-file - Task 'SampleCode_entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:34.655] [DEBUG] debug-file - Change app api release type with 'Release'
+[2026-04-21T16:48:34.655] [DEBUG] debug-file - Change app compile API version with '6.0.2.130'
+[2026-04-21T16:48:34.655] [DEBUG] debug-file - Change app target API version with '60002022'
+[2026-04-21T16:48:34.655] [DEBUG] debug-file - Change app minimum API version with '60002022'
+[2026-04-21T16:48:34.655] [DEBUG] debug-file - Use cli appEnvironment
+[2026-04-21T16:48:34.658] [DEBUG] debug-file - SampleCode_entry : default@MergeProfile cost memory 0.17315673828125
+[2026-04-21T16:48:34.658] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 902 ms 
+[2026-04-21T16:48:34.659] [INFO] debug-file - Finished :SampleCode_entry:default@MergeProfile... after 6 ms 
+[2026-04-21T16:48:34.660] [DEBUG] debug-file - Executing task :SampleCode_entry:default@CreateBuildProfile
+[2026-04-21T16:48:34.661] [DEBUG] debug-file - Task 'SampleCode_entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:34.663] [DEBUG] debug-file - SampleCode_entry : default@CreateBuildProfile cost memory 0.16943359375
+[2026-04-21T16:48:34.663] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 906 ms 
+[2026-04-21T16:48:34.663] [INFO] debug-file - Finished :SampleCode_entry:default@CreateBuildProfile... after 4 ms 
+[2026-04-21T16:48:34.665] [DEBUG] debug-file - Executing task :SampleCode_entry:default@PreCheckSyscap
+[2026-04-21T16:48:34.665] [DEBUG] debug-file - SampleCode_entry : default@PreCheckSyscap cost memory 0.0147552490234375
+[2026-04-21T16:48:34.665] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 908 ms 
+[2026-04-21T16:48:34.666] [INFO] debug-file - Finished :SampleCode_entry:default@PreCheckSyscap... after 1 ms 
+[2026-04-21T16:48:34.668] [DEBUG] debug-file - Executing task :SampleCode_entry:default@GeneratePkgContextInfo
+[2026-04-21T16:48:34.678] [DEBUG] debug-file - Task 'SampleCode_entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:34.679] [DEBUG] debug-file - SampleCode_entry : default@GeneratePkgContextInfo cost memory 0.3259735107421875
+[2026-04-21T16:48:34.679] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 922 ms 
+[2026-04-21T16:48:34.679] [INFO] debug-file - Finished :SampleCode_entry:default@GeneratePkgContextInfo... after 11 ms 
+[2026-04-21T16:48:34.684] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessIntegratedHsp
+[2026-04-21T16:48:34.685] [DEBUG] debug-file - SampleCode_entry : default@ProcessIntegratedHsp cost memory 0.03086090087890625
+[2026-04-21T16:48:34.685] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 928 ms 
+[2026-04-21T16:48:34.685] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessIntegratedHsp... after 1 ms 
+[2026-04-21T16:48:34.687] [DEBUG] debug-file - Executing task :SampleCode_entry:default@BuildNativeWithCmake
+[2026-04-21T16:48:34.687] [DEBUG] debug-file - SampleCode_entry : default@BuildNativeWithCmake cost memory 0.01747894287109375
+[2026-04-21T16:48:34.687] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 931 ms 
+[2026-04-21T16:48:34.688] [INFO] debug-file - Finished :SampleCode_entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-04-21T16:48:34.690] [DEBUG] debug-file - Executing task :SampleCode_entry:default@MakePackInfo
+[2026-04-21T16:48:34.692] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***e', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'SampleCode_entry-default'
+    }
+  ]
+}
+[2026-04-21T16:48:34.694] [DEBUG] debug-file - SampleCode_entry : default@MakePackInfo cost memory 0.34568023681640625
+[2026-04-21T16:48:34.695] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 938 ms 
+[2026-04-21T16:48:34.695] [INFO] debug-file - Finished :SampleCode_entry:default@MakePackInfo... after 6 ms 
+[2026-04-21T16:48:34.697] [DEBUG] debug-file - Executing task :SampleCode_entry:default@SyscapTransform
+[2026-04-21T16:48:34.697] [DEBUG] debug-file - File: 'C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-04-21T16:48:34.698] [DEBUG] debug-file - Task 'SampleCode_entry:default@SyscapTransform' cost while wrapping incremental declarations: 2 ms 
+[2026-04-21T16:48:34.699] [DEBUG] debug-file - SampleCode_entry : default@SyscapTransform cost memory 0.05792999267578125
+[2026-04-21T16:48:34.699] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 942 ms 
+[2026-04-21T16:48:34.699] [INFO] debug-file - Finished :SampleCode_entry:default@SyscapTransform... after 3 ms 
+[2026-04-21T16:48:34.702] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessProfile
+[2026-04-21T16:48:34.703] [DEBUG] debug-file - Task 'SampleCode_entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:34.706] [DEBUG] debug-file - [
+  'D:\\deveco\\DevEco Studio\\tools\\node\\node.exe',
+  'D:\\deveco\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '22'
+]
+[2026-04-21T16:48:36.223] [DEBUG] debug-file - 13.0.1.0
+[2026-04-21T16:48:36.226] [DEBUG] debug-file - No need to add fake ui ability because of not in preview process.
+[2026-04-21T16:48:36.228] [DEBUG] debug-file - SampleCode_entry : default@ProcessProfile cost memory -9.097343444824219
+[2026-04-21T16:48:36.228] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 471 ms 
+[2026-04-21T16:48:36.228] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessProfile... after 1 s 527 ms 
+[2026-04-21T16:48:36.230] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessRouterMap
+[2026-04-21T16:48:36.234] [DEBUG] debug-file - SampleCode_entry : default@ProcessRouterMap cost memory 0.0917510986328125
+[2026-04-21T16:48:36.234] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 477 ms 
+[2026-04-21T16:48:36.235] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessRouterMap... after 5 ms 
+[2026-04-21T16:48:36.237] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessShareConfig
+[2026-04-21T16:48:36.240] [DEBUG] debug-file - SampleCode_entry : default@ProcessShareConfig cost memory 0.07205963134765625
+[2026-04-21T16:48:36.240] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 483 ms 
+[2026-04-21T16:48:36.240] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessShareConfig... after 4 ms 
+[2026-04-21T16:48:36.242] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessStartupConfig
+[2026-04-21T16:48:36.242] [DEBUG] debug-file - Task 'SampleCode_entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:36.243] [DEBUG] debug-file - SampleCode_entry : default@ProcessStartupConfig cost memory 0.06555938720703125
+[2026-04-21T16:48:36.243] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 487 ms 
+[2026-04-21T16:48:36.244] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessStartupConfig... after 2 ms 
+[2026-04-21T16:48:36.245] [DEBUG] debug-file - Executing task :SampleCode_entry:default@BuildNativeWithNinja
+[2026-04-21T16:48:36.247] [DEBUG] debug-file - SampleCode_entry : default@BuildNativeWithNinja cost memory 0.02874755859375
+[2026-04-21T16:48:36.247] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 490 ms 
+[2026-04-21T16:48:36.247] [INFO] debug-file - Finished :SampleCode_entry:default@BuildNativeWithNinja... after 2 ms 
+[2026-04-21T16:48:36.249] [DEBUG] debug-file - restool module names: SampleCode_entry; moduleName=SampleCode_entry, taskName=default@ProcessResource
+[2026-04-21T16:48:36.252] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessResource
+[2026-04-21T16:48:36.252] [DEBUG] debug-file - Task 'SampleCode_entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:36.255] [DEBUG] debug-file - SampleCode_entry : default@ProcessResource cost memory 0.12810516357421875
+[2026-04-21T16:48:36.256] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 499 ms 
+[2026-04-21T16:48:36.257] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessResource... after 5 ms 
+[2026-04-21T16:48:36.261] [DEBUG] debug-file - Executing task :SampleCode_entry:default@GenerateLoaderJson
+[2026-04-21T16:48:36.261] [DEBUG] debug-file - Task 'SampleCode_entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:36.276] [DEBUG] debug-file - SampleCode_entry : default@GenerateLoaderJson cost memory 0.5362396240234375
+[2026-04-21T16:48:36.276] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 519 ms 
+[2026-04-21T16:48:36.281] [INFO] debug-file - Finished :SampleCode_entry:default@GenerateLoaderJson... after 16 ms 
+[2026-04-21T16:48:36.282] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessLibs
+[2026-04-21T16:48:36.289] [DEBUG] debug-file - Worker dispatch failed, running processLibs on main thread.
+[2026-04-21T16:48:36.291] [DEBUG] debug-file - SampleCode_entry : default@ProcessLibs cost memory 0.29230499267578125
+[2026-04-21T16:48:36.291] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 534 ms 
+[2026-04-21T16:48:36.292] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessLibs... after 9 ms 
+[2026-04-21T16:48:36.293] [DEBUG] debug-file - restool module names: SampleCode_entry; moduleName=SampleCode_entry, taskName=default@CompileResource
+[2026-04-21T16:48:36.294] [DEBUG] debug-file - Executing task :SampleCode_entry:default@CompileResource
+[2026-04-21T16:48:36.304] [DEBUG] debug-file - Use tool [D:\deveco\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'D:\\deveco\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2026-04-21T16:48:36.305] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 268414976,
+  heapTotal: 167948288,
+  heapUsed: 138281072,
+  external: 3020862,
+  arrayBuffers: 119650
+} os memoryUsage :17.676513671875
+[2026-04-21T16:48:37.208] [DEBUG] debug-file - Info: Pack: normal pack mode
+
+[2026-04-21T16:48:37.400] [DEBUG] debug-file - Info: hardware concurrency count is : 24
+Info: thread count is : 24
+
+[2026-04-21T16:48:37.400] [DEBUG] debug-file - Info: thread pool is started
+
+[2026-04-21T16:48:37.403] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-04-21T16:48:37.409] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-04-21T16:48:37.423] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-04-21T16:48:37.425] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-04-21T16:48:37.433] [DEBUG] debug-file - 04-21 16:48:37.433 17032 18892 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2026-04-21T16:48:37.433] [DEBUG] debug-file - 04-21 16:48:37.433 17032 18892 E C01400/ImageTranscoderUtils: ImageFilter IN C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\resources\base\media\app_icon.png
+
+[2026-04-21T16:48:37.434] [DEBUG] debug-file - 04-21 16:48:37.434 17032 18892 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-04-21T16:48:37.434] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\resources\base\media\app_icon.png
+
+[2026-04-21T16:48:37.436] [DEBUG] debug-file - 04-21 16:48:37.436 17032 18892 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+04-21 16:48:37.436 17032 18892 E C01400/ImageTranscoderUtils: ImageFilter IN C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\resources\base\media\icon.png
+
+[2026-04-21T16:48:37.436] [DEBUG] debug-file - 04-21 16:48:37.436 17032 18892 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-04-21T16:48:37.437] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\resources\base\media\icon.png
+
+[2026-04-21T16:48:37.438] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\resources\base\media\app_icon.png
+
+[2026-04-21T16:48:37.438] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\resources\base\media\icon.png
+
+[2026-04-21T16:48:37.440] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2026-04-21T16:48:37.441] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2026-04-21T16:48:37.520] [DEBUG] debug-file - SampleCode_entry : default@CompileResource cost memory 0.6448440551757812
+[2026-04-21T16:48:37.520] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 763 ms 
+[2026-04-21T16:48:37.523] [INFO] debug-file - Finished :SampleCode_entry:default@CompileResource... after 1 s 227 ms 
+[2026-04-21T16:48:37.525] [DEBUG] debug-file - Executing task :SampleCode_entry:default@DoNativeStrip
+[2026-04-21T16:48:37.526] [DEBUG] debug-file - Task 'SampleCode_entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:37.530] [DEBUG] debug-file - SampleCode_entry : default@DoNativeStrip cost memory 0.06165313720703125
+[2026-04-21T16:48:37.530] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 773 ms 
+[2026-04-21T16:48:37.530] [INFO] debug-file - Finished :SampleCode_entry:default@DoNativeStrip... after 6 ms 
+[2026-04-21T16:48:37.533] [DEBUG] debug-file - Executing task :SampleCode_entry:default@CompileArkTS
+[2026-04-21T16:48:37.534] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-04-21T16:48:37.536] [DEBUG] debug-file - Task 'SampleCode_entry:default@CompileArkTS' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:37.558] [DEBUG] debug-file - build config:
+[2026-04-21T16:48:37.558] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  hotReloadBuild: undefined,
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\deveco\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master',
+  compileSdkVersion: 22,
+  compatibleSdkVersion: 22,
+  originCompatibleSdkVersion: '6.0.2(22)',
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***e',
+  etsLoaderVersion: '6.0.2.130',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\modules.ap',
+  entryModuleName: 'SampleCode_entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'f07ada1035fada2b4bca26d834981a227cb3fabe270bdfcc8b523270b24ac296',
+  externalApiPaths: [ 'D:\\deveco\\DevEco Studio\\sdk\\default\\hms\\ets' ],
+  compilerTypes: [],
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 22,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  buildDir: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build',
+  deviceTypes: [ 'phone', 'tablet' ],
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: {
+    requestPermissions: [ [Object], [Object] ],
+    definePermissions: undefined
+  },
+  useGetCurrentBundleName: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [
+    'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master'
+  ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck',
+    executionMode: 'memory',
+    usePathPlaceholder: false,
+    writeRollupCache: true,
+    isExpandImportEnabled: false,
+    expandImportExclude: '',
+    lazyImportExclude: '',
+    lazyImportInclude: '',
+    ignoreCrossplatformCheck: false,
+    isHarDeduplicateEnabled: false,
+    skipOhModulesLint: false,
+    enableStrictCheckOHModule: false,
+    disableSendableCheckRules: [],
+    useDeclarationFileSignature: false,
+    customizedOptions: undefined,
+    integratedHsp: false,
+    isPreloadSoEnabled: false
+  },
+  executionMode: 'memory',
+  arkCompileCachePath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  autoLazyFilter: undefined,
+  isHarDeduplicateEnabled: false,
+  intermediateHarDuplicateDirPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\har_duplicate\\default',
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  usePathPlaceholder: false,
+  writeRollupCache: true,
+  isExpandImportEnabled: false,
+  expandImportExclude: '',
+  lazyImportExclude: '',
+  lazyImportInclude: '',
+  ignoreCrossplatformCheck: false,
+  skipOhModulesLint: false,
+  enableStrictCheckOHModule: false,
+  disableSendableCheckRules: [],
+  useDeclarationFileSignature: false,
+  customizedOptions: undefined,
+  integratedHsp: false,
+  isPreloadSoEnabled: false,
+  strictMode: undefined,
+  useNormalizedOHMUrl: false,
+  caseSensitiveCheck: false,
+  aceModuleJsonPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'a8b77b0d26a12936dbb60c5e8b629b9e2639b7639abec6abde19cb3c1534fe63',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:22:6.0.2.130:Release',
+  aceModuleRoot: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  shouldCollectDirectImportees: false,
+  isByteCodeHarOptimize: false,
+  expandImportPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\src\\main': {
+      moduleName: 'SampleCode_entry',
+      modulePkgPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry',
+      belongProjectPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master'
+    },
+    'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry': {
+      moduleName: 'SampleCode_entry',
+      modulePkgPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry',
+      belongProjectPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master'
+    },
+    'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master': {
+      moduleName: 'scankit-samplecode-clientdemo-arkts-master',
+      modulePkgPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master',
+      belongProjectPath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master'
+    }
+  },
+  pkgJsonFileHash: '0f6ed72aacc5edd8601644186f9531f9bd59d510947fa27606bbbe227f8c0940',
+  allModulePaths: [
+    'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry'
+  ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  byteCodeHarToDependencyKeys: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {},
+    source2ModuleIdMap: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  copyCodeResourceIncludes: undefined,
+  uiTransformOptimization: false,
+  sdkPath: 'D:/deveco/DevEco Studio/sdk',
+  needPreloadSoFileSet: {},
+  preloadSoFilePath: 'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\preload\\default\\preload.json',
+  useSourceHash: false,
+  localModuleParamMap: {},
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2026-04-21T16:48:37.558] [DEBUG] debug-file - Compile arkts with external api path: D:\deveco\DevEco Studio\sdk\default\hms\ets
+[2026-04-21T16:48:37.561] [DEBUG] debug-file - default@CompileArkTS work[0] is submitted.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - default@CompileArkTS work[0] is pushed to ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.562] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.563] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.563] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.563] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2026-04-21T16:48:37.564] [DEBUG] debug-file - default@CompileArkTS work[0] has been dispatched to worker[4].
+[2026-04-21T16:48:37.564] [DEBUG] debug-file - default@CompileArkTS work[0] is dispatched.
+[2026-04-21T16:48:37.564] [DEBUG] debug-file - CopyResources startTime: 444069505081100
+[2026-04-21T16:48:37.564] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2026-04-21T16:48:37.564] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2026-04-21T16:48:37.564] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.564] [DEBUG] debug-file - Create  resident worker with id: 22.
+[2026-04-21T16:48:37.565] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[22].
+[2026-04-21T16:48:37.565] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2026-04-21T16:48:37.565] [DEBUG] debug-file - SampleCode_entry : default@CompileArkTS cost memory 2.2278060913085938
+[2026-04-21T16:48:37.567] [DEBUG] debug-file - Executing task :SampleCode_entry:default@BuildJS
+[2026-04-21T16:48:37.568] [DEBUG] debug-file - Task 'SampleCode_entry:default@BuildJS' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:37.572] [DEBUG] debug-file - SampleCode_entry : default@BuildJS cost memory 0.15288543701171875
+[2026-04-21T16:48:37.572] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 816 ms 
+[2026-04-21T16:48:37.573] [INFO] debug-file - Finished :SampleCode_entry:default@BuildJS... after 6 ms 
+[2026-04-21T16:48:37.574] [DEBUG] debug-file - Executing task :SampleCode_entry:default@CacheNativeLibs
+[2026-04-21T16:48:37.575] [DEBUG] debug-file - Task 'SampleCode_entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:37.575] [DEBUG] debug-file - default@CacheNativeLibs work[2] is submitted.
+[2026-04-21T16:48:37.575] [DEBUG] debug-file - default@CacheNativeLibs work[2] is pushed to ready queue.
+[2026-04-21T16:48:37.575] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-04-21T16:48:37.576] [DEBUG] debug-file - A work dispatched to worker[22] failed because of worker busy.
+[2026-04-21T16:48:37.576] [DEBUG] debug-file - Create  resident worker with id: 21.
+[2026-04-21T16:48:37.576] [DEBUG] debug-file - default@CacheNativeLibs work[2] has been dispatched to worker[21].
+[2026-04-21T16:48:37.576] [DEBUG] debug-file - default@CacheNativeLibs work[2] is dispatched.
+[2026-04-21T16:48:37.576] [DEBUG] debug-file - SampleCode_entry : default@CacheNativeLibs cost memory 0.150634765625
+[2026-04-21T16:48:38.737] [DEBUG] debug-file - worker[22] has one work done.
+[2026-04-21T16:48:38.737] [DEBUG] debug-file - CopyResources is end, endTime: 444070677723900
+[2026-04-21T16:48:38.737] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2026-04-21T16:48:38.737] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-04-21T16:48:38.810] [DEBUG] debug-file - worker[21] has one work done.
+[2026-04-21T16:48:38.810] [DEBUG] debug-file - default@CacheNativeLibs work[2] done.
+[2026-04-21T16:48:38.810] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2026-04-21T16:48:38.811] [INFO] debug-file - Finished :SampleCode_entry:default@CacheNativeLibs... after 10 ms 
+[2026-04-21T16:48:50.219] [DEBUG] debug-file - worker[4] has one work done.
+[2026-04-21T16:48:50.219] [DEBUG] debug-file - Ark compile task finished.finished time is 444082159373700
+[2026-04-21T16:48:50.222] [DEBUG] debug-file - default@CompileArkTS work[0] done.
+[2026-04-21T16:48:50.223] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2026-04-21T16:48:50.225] [INFO] debug-file - Finished :SampleCode_entry:default@CompileArkTS... after 9 s 822 ms 
+[2026-04-21T16:48:50.226] [DEBUG] debug-file - Executing task :SampleCode_entry:default@GeneratePkgModuleJson
+[2026-04-21T16:48:50.227] [DEBUG] debug-file - File: 'C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-04-21T16:48:50.227] [DEBUG] debug-file - Error occurs while handling @Input 'shouldDeduplicateHar': The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+[2026-04-21T16:48:50.227] [DEBUG] debug-file - Task 'SampleCode_entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:50.231] [DEBUG] debug-file - SampleCode_entry : default@GeneratePkgModuleJson cost memory 0.1743927001953125
+[2026-04-21T16:48:50.231] [DEBUG] debug-file - runTaskFromQueue task cost before running: 18 s 474 ms 
+[2026-04-21T16:48:50.231] [INFO] debug-file - Finished :SampleCode_entry:default@GeneratePkgModuleJson... after 5 ms 
+[2026-04-21T16:48:50.232] [DEBUG] debug-file - Executing task :SampleCode_entry:default@ProcessCompiledResources
+[2026-04-21T16:48:50.232] [DEBUG] debug-file - File: 'C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-04-21T16:48:50.232] [DEBUG] debug-file - Task 'SampleCode_entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-04-21T16:48:50.233] [DEBUG] debug-file - SampleCode_entry : default@ProcessCompiledResources cost memory 0.062255859375
+[2026-04-21T16:48:50.233] [DEBUG] debug-file - runTaskFromQueue task cost before running: 18 s 476 ms 
+[2026-04-21T16:48:50.233] [INFO] debug-file - Finished :SampleCode_entry:default@ProcessCompiledResources... after 1 ms 
+[2026-04-21T16:48:50.235] [DEBUG] debug-file - Executing task :SampleCode_entry:default@PackageHap
+[2026-04-21T16:48:50.244] [DEBUG] debug-file - Use tool [D:\deveco\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\deveco\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\outputs\\default\\SampleCode_entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\illus\\Desktop\\scankit-samplecode-clientdemo-arkts-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2026-04-21T16:48:50.608] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2026-04-21T16:48:50.617] [DEBUG] debug-file - SampleCode_entry : default@PackageHap cost memory -0.42603302001953125
+[2026-04-21T16:48:50.617] [DEBUG] debug-file - runTaskFromQueue task cost before running: 18 s 860 ms 
+[2026-04-21T16:48:50.619] [INFO] debug-file - Finished :SampleCode_entry:default@PackageHap... after 383 ms 
+[2026-04-21T16:48:50.620] [DEBUG] debug-file - Executing task :SampleCode_entry:default@PackingCheck
+[2026-04-21T16:48:50.629] [DEBUG] debug-file - SampleCode_entry : default@PackingCheck cost memory 0.6214675903320312
+[2026-04-21T16:48:50.629] [DEBUG] debug-file - runTaskFromQueue task cost before running: 18 s 872 ms 
+[2026-04-21T16:48:50.630] [INFO] debug-file - Finished :SampleCode_entry:default@PackingCheck... after 9 ms 
+[2026-04-21T16:48:50.632] [DEBUG] debug-file - Executing task :SampleCode_entry:default@SignHap
+[2026-04-21T16:48:50.632] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\build-profile.json5.
+[2026-04-21T16:48:50.633] [DEBUG] debug-file - SampleCode_entry : default@SignHap cost memory 0.05779266357421875
+[2026-04-21T16:48:50.633] [DEBUG] debug-file - runTaskFromQueue task cost before running: 18 s 877 ms 
+[2026-04-21T16:48:50.634] [INFO] debug-file - Finished :SampleCode_entry:default@SignHap... after 2 ms 
+[2026-04-21T16:48:50.635] [DEBUG] debug-file - Executing task :SampleCode_entry:default@CollectDebugSymbol
+[2026-04-21T16:48:50.637] [DEBUG] debug-file - SampleCode_entry : default@CollectDebugSymbol cost memory 0.10160064697265625
+[2026-04-21T16:48:50.637] [DEBUG] debug-file - runTaskFromQueue task cost before running: 18 s 880 ms 
+[2026-04-21T16:48:50.637] [INFO] debug-file - Finished :SampleCode_entry:default@CollectDebugSymbol... after 2 ms 
+[2026-04-21T16:48:50.637] [DEBUG] debug-file - Executing task :SampleCode_entry:assembleHap
+[2026-04-21T16:48:50.637] [DEBUG] debug-file - SampleCode_entry : assembleHap cost memory 0.01287841796875
+[2026-04-21T16:48:50.638] [DEBUG] debug-file - runTaskFromQueue task cost before running: 18 s 881 ms 
+[2026-04-21T16:48:50.638] [INFO] debug-file - Finished :SampleCode_entry:assembleHap... after 1 ms 
+[2026-04-21T16:48:50.651] [INFO] debug-file - BUILD SUCCESSFUL in 18 s 894 ms 
+[2026-04-21T16:48:50.653] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:48:50.654] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:48:50.654] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:48:50.655] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build-profile.json5 cache by regenerate.
+[2026-04-21T16:48:50.655] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2026-04-21T16:48:50.655] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\hvigor\hvigor-config.json5 cache by regenerate.
+[2026-04-21T16:48:50.656] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\oh-package.json5 cache by regenerate.
+[2026-04-21T16:48:50.656] [DEBUG] debug-file - Update task SampleCode_entry:default@PreBuild input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\oh-package.json5 cache by regenerate.
+[2026-04-21T16:48:50.656] [DEBUG] debug-file - Incremental task SampleCode_entry:default@PreBuild post-execution cost:5 ms .
+[2026-04-21T16:48:50.656] [DEBUG] debug-file - Update task SampleCode_entry:default@CreateModuleInfo output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-04-21T16:48:50.657] [DEBUG] debug-file - Incremental task SampleCode_entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2026-04-21T16:48:50.657] [DEBUG] debug-file - Update task SampleCode_entry:default@GenerateMetadata input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:48:50.658] [DEBUG] debug-file - Update task SampleCode_entry:default@GenerateMetadata output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2026-04-21T16:48:50.658] [DEBUG] debug-file - Incremental task SampleCode_entry:default@GenerateMetadata post-execution cost:1 ms .
+[2026-04-21T16:48:50.658] [DEBUG] debug-file - Update task SampleCode_entry:default@MergeProfile input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:48:50.659] [DEBUG] debug-file - Update task SampleCode_entry:default@MergeProfile input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:48:50.659] [DEBUG] debug-file - Update task SampleCode_entry:default@MergeProfile input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:48:50.659] [DEBUG] debug-file - Update task SampleCode_entry:default@MergeProfile output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2026-04-21T16:48:50.660] [DEBUG] debug-file - Incremental task SampleCode_entry:default@MergeProfile post-execution cost:2 ms .
+[2026-04-21T16:48:50.660] [DEBUG] debug-file - Update task SampleCode_entry:default@CreateBuildProfile input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:48:50.660] [DEBUG] debug-file - Update task SampleCode_entry:default@CreateBuildProfile input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:48:50.660] [DEBUG] debug-file - Update task SampleCode_entry:default@CreateBuildProfile output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2026-04-21T16:48:50.661] [DEBUG] debug-file - Incremental task SampleCode_entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2026-04-21T16:48:50.661] [DEBUG] debug-file - Update task SampleCode_entry:default@GeneratePkgContextInfo output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2026-04-21T16:48:50.661] [DEBUG] debug-file - Incremental task SampleCode_entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2026-04-21T16:48:50.661] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessIntegratedHsp output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-04-21T16:48:50.661] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-04-21T16:48:50.661] [DEBUG] debug-file - Update task SampleCode_entry:default@MakePackInfo input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\app.json5 cache by regenerate.
+[2026-04-21T16:48:50.662] [DEBUG] debug-file - Update task SampleCode_entry:default@MakePackInfo input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:48:50.662] [DEBUG] debug-file - Update task SampleCode_entry:default@MakePackInfo input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:48:50.663] [DEBUG] debug-file - Update task SampleCode_entry:default@MakePackInfo output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\outputs\default\pack.info cache.
+[2026-04-21T16:48:50.663] [DEBUG] debug-file - Incremental task SampleCode_entry:default@MakePackInfo post-execution cost:2 ms .
+[2026-04-21T16:48:50.663] [DEBUG] debug-file - Update task SampleCode_entry:default@SyscapTransform input file:D:\deveco\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-04-21T16:48:50.663] [DEBUG] debug-file - Update task SampleCode_entry:default@SyscapTransform input file:D:\deveco\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-04-21T16:48:50.665] [DEBUG] debug-file - Update task SampleCode_entry:default@SyscapTransform output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-04-21T16:48:50.665] [DEBUG] debug-file - Incremental task SampleCode_entry:default@SyscapTransform post-execution cost:3 ms .
+[2026-04-21T16:48:50.665] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessProfile input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2026-04-21T16:48:50.666] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessProfile output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2026-04-21T16:48:50.666] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessProfile post-execution cost:1 ms .
+[2026-04-21T16:48:50.667] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessRouterMap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\oh-package.json5 cache by regenerate.
+[2026-04-21T16:48:50.667] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessRouterMap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\oh-package.json5 cache by regenerate.
+[2026-04-21T16:48:50.668] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessRouterMap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:48:50.668] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessRouterMap output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2026-04-21T16:48:50.668] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessRouterMap output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2026-04-21T16:48:50.669] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessRouterMap post-execution cost:3 ms .
+[2026-04-21T16:48:50.669] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessShareConfig input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\oh-package.json5 cache by regenerate.
+[2026-04-21T16:48:50.669] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessShareConfig input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\oh-package.json5 cache by regenerate.
+[2026-04-21T16:48:50.670] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessShareConfig input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\module.json5 cache by regenerate.
+[2026-04-21T16:48:50.670] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessShareConfig output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\share_config\default\temp-share-config.json cache.
+[2026-04-21T16:48:50.670] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessShareConfig post-execution cost:2 ms .
+[2026-04-21T16:48:50.671] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessStartupConfig output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-04-21T16:48:50.671] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2026-04-21T16:48:50.671] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessResource output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2026-04-21T16:48:50.671] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessResource output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2026-04-21T16:48:50.672] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessResource post-execution cost:1 ms .
+[2026-04-21T16:48:50.673] [DEBUG] debug-file - Update task SampleCode_entry:default@GenerateLoaderJson input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2026-04-21T16:48:50.673] [DEBUG] debug-file - Update task SampleCode_entry:default@GenerateLoaderJson output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader\default\loader.json cache.
+[2026-04-21T16:48:50.674] [DEBUG] debug-file - Incremental task SampleCode_entry:default@GenerateLoaderJson post-execution cost:3 ms .
+[2026-04-21T16:48:50.675] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessLibs input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\build-profile.json5 cache by regenerate.
+[2026-04-21T16:48:50.675] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessLibs input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build-profile.json5 cache by regenerate.
+[2026-04-21T16:48:50.675] [DEBUG] debug-file - Update task SampleCode_entry:default@ProcessLibs output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\libs\default cache.
+[2026-04-21T16:48:50.676] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessLibs post-execution cost:2 ms .
+[2026-04-21T16:48:50.677] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileResource input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\resources cache by regenerate.
+[2026-04-21T16:48:50.683] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileResource input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\AppScope\resources cache by regenerate.
+[2026-04-21T16:48:50.685] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileResource input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2026-04-21T16:48:50.685] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileResource input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2026-04-21T16:48:50.685] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileResource output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default cache.
+[2026-04-21T16:48:50.693] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileResource output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2026-04-21T16:48:50.693] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileResource output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\generated\r\default cache.
+[2026-04-21T16:48:50.694] [DEBUG] debug-file - Incremental task SampleCode_entry:default@CompileResource post-execution cost:18 ms .
+[2026-04-21T16:48:50.694] [DEBUG] debug-file - Update task SampleCode_entry:default@DoNativeStrip input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-04-21T16:48:50.695] [DEBUG] debug-file - Update task SampleCode_entry:default@DoNativeStrip output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2026-04-21T16:48:50.695] [DEBUG] debug-file - Incremental task SampleCode_entry:default@DoNativeStrip post-execution cost:2 ms .
+[2026-04-21T16:48:50.698] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-04-21T16:48:50.698] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-04-21T16:48:50.701] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-04-21T16:48:50.701] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-04-21T16:48:50.701] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-04-21T16:48:50.702] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\src\main\ets cache by regenerate.
+[2026-04-21T16:48:50.716] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-04-21T16:48:50.716] [DEBUG] debug-file - Update task SampleCode_entry:default@CompileArkTS output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader_out\default\ets cache.
+[2026-04-21T16:48:50.717] [DEBUG] debug-file - Incremental task SampleCode_entry:default@CompileArkTS post-execution cost:22 ms .
+[2026-04-21T16:48:50.718] [DEBUG] debug-file - Update task SampleCode_entry:default@BuildJS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-04-21T16:48:50.719] [DEBUG] debug-file - Update task SampleCode_entry:default@BuildJS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-04-21T16:48:50.722] [DEBUG] debug-file - Update task SampleCode_entry:default@BuildJS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-04-21T16:48:50.722] [DEBUG] debug-file - Update task SampleCode_entry:default@BuildJS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-04-21T16:48:50.723] [DEBUG] debug-file - Update task SampleCode_entry:default@BuildJS input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-04-21T16:48:50.724] [DEBUG] debug-file - Update task SampleCode_entry:default@BuildJS output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-04-21T16:48:50.724] [DEBUG] debug-file - Incremental task SampleCode_entry:default@BuildJS post-execution cost:7 ms .
+[2026-04-21T16:48:50.724] [DEBUG] debug-file - Update task SampleCode_entry:default@CacheNativeLibs input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-04-21T16:48:50.724] [DEBUG] debug-file - Update task SampleCode_entry:default@CacheNativeLibs input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-04-21T16:48:50.725] [DEBUG] debug-file - Update task SampleCode_entry:default@CacheNativeLibs output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2026-04-21T16:48:50.725] [DEBUG] debug-file - Incremental task SampleCode_entry:default@CacheNativeLibs post-execution cost:2 ms .
+[2026-04-21T16:48:50.725] [DEBUG] debug-file - Update task SampleCode_entry:default@GeneratePkgModuleJson input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-04-21T16:48:50.725] [DEBUG] debug-file - Update task SampleCode_entry:default@GeneratePkgModuleJson output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\package\default\module.json cache.
+[2026-04-21T16:48:50.726] [DEBUG] debug-file - Incremental task SampleCode_entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2026-04-21T16:48:50.726] [DEBUG] debug-file - Incremental task SampleCode_entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-04-21T16:48:50.727] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-04-21T16:48:50.727] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-04-21T16:48:50.727] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2026-04-21T16:48:50.732] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2026-04-21T16:48:50.732] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2026-04-21T16:48:50.732] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2026-04-21T16:48:50.733] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-04-21T16:48:50.733] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-04-21T16:48:50.734] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\outputs\default\SampleCode_entry-default-unsigned.hap cache.
+[2026-04-21T16:48:50.734] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2026-04-21T16:48:50.734] [DEBUG] debug-file - Update task SampleCode_entry:default@PackageHap output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2026-04-21T16:48:50.734] [DEBUG] debug-file - Incremental task SampleCode_entry:default@PackageHap post-execution cost:9 ms .
+[2026-04-21T16:48:50.735] [DEBUG] debug-file - Update task SampleCode_entry:default@SignHap input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\outputs\default\SampleCode_entry-default-unsigned.hap cache by regenerate.
+[2026-04-21T16:48:50.735] [DEBUG] debug-file - Update task SampleCode_entry:default@SignHap output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\outputs\default\SampleCode_entry-default-signed.hap cache.
+[2026-04-21T16:48:50.735] [DEBUG] debug-file - Incremental task SampleCode_entry:default@SignHap post-execution cost:1 ms .
+[2026-04-21T16:48:50.736] [DEBUG] debug-file - Update task SampleCode_entry:default@CollectDebugSymbol input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-04-21T16:48:50.736] [DEBUG] debug-file - Update task SampleCode_entry:default@CollectDebugSymbol input file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-04-21T16:48:50.736] [DEBUG] debug-file - Update task SampleCode_entry:default@CollectDebugSymbol output file:C:\Users\illus\Desktop\scankit-samplecode-clientdemo-arkts-master\entry\build\default\outputs\default\symbol cache.
+[2026-04-21T16:48:50.737] [DEBUG] debug-file - Incremental task SampleCode_entry:default@CollectDebugSymbol post-execution cost:2 ms .
+[2026-04-21T16:48:50.767] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-21T16:48:50.767] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-21T16:48:50.767] [DEBUG] debug-file - Current idle worker size: 4.
+[2026-04-21T16:48:50.767] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-04-21T16:48:50.767] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Current idle worker size: 3.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Cleanup worker 22.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Worker 22 has been cleaned up.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Current idle worker size: 2.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Cleanup worker 21.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Worker 21 has been cleaned up.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-21T16:48:50.768] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-04-21T16:48:50.770] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-21T16:48:50.771] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-21T16:48:50.771] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-21T16:48:50.771] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-04-21T16:48:50.772] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-04-21T16:48:50.773] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-04-21T16:48:50.773] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:48:50.774] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-21T16:48:50.779] [DEBUG] debug-file - worker[21] exits with exit code 1.
+[2026-04-21T16:48:50.779] [DEBUG] debug-file - worker[22] exits with exit code 1.
